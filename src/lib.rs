@@ -73,7 +73,7 @@
 #![doc(html_root_url = "https://docs.rs/num-bigint/0.1")]
 
 #[cfg(any(feature = "rand", test))]
-extern crate rand;
+pub extern crate rand;
 #[cfg(feature = "rustc-serialize")]
 extern crate rustc_serialize;
 #[cfg(feature = "serde")]
